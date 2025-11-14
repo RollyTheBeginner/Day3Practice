@@ -1,4 +1,4 @@
-﻿namespace DoWhileLoop
+﻿namespace Exercise3
 {
     internal class Program
     {
@@ -14,7 +14,8 @@
                 Console.Write(i);
 
                 if (i > 1)
-                Console.Write(" x ");
+                    Console.Write(" x ");
+                
             }
 
             // Compute factorial
@@ -23,8 +24,11 @@
             {
                 factorial *= j;
             }
+
+            // FOR SPACE LANG
             Console.WriteLine();
             Console.Write(userInput + "! = " + factorial);
+
         }
     }
 }
